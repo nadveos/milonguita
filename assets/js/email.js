@@ -19,8 +19,8 @@ function sendMail() {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    from: 'contact@tudominio.com', // Correo desde donde envías
-                    to: email, // Correo del destinatario
+                    from: email, // Correo desde donde envías
+                    to: 'contact@milonguita.com.ar', // Correo del destinatario
                     subject: `Nuevo mensaje de ${name}`,
                     html: `
                         <p><strong>Nombre:</strong> ${name}</p>

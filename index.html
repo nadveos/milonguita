@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
@@ -99,7 +100,35 @@
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>
-
+				<!-- Contact Form Section -->
+<section id="contact" class="spotlight style1 right">
+	<span class="image fit main "><img src="images/salta.png" alt="" /></span>
+    <div class="content">
+        <header>
+            <h2>Contacto</h2>
+            <p>Déjanos un mensaje y nos pondremos en contacto contigo lo antes posible.</p>
+        </header>
+        <form id="contactForm">
+            <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall">
+                    <input type="text" name="name" id="name" placeholder="Nombre" required />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                    <input type="email" name="email" id="email" placeholder="Email" required />
+                </div>
+                <div class="col-12">
+                    <textarea name="message" id="message" placeholder="Mensaje" rows="6" required></textarea>
+                </div>
+                <div class="col-12">
+                    <ul class="actions">
+                        <li><button type="submit" class="button primary">Enviar</button></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+</section>
 			
 
 			<!-- Footer -->
@@ -110,7 +139,7 @@
 						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:milonguitadev@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="mailto:contact@milonguita.com.ar" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 						<li><a href="https://wa.me/qr/DLNRDCDOWQ47A1" class="icon brands alt fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
 					</ul>
 					<ul class="copyright">
@@ -129,6 +158,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/email.js"></script>
+
 
 	</body>
 </html>

@@ -12,7 +12,7 @@ function sendMail() {
         responseMessage.textContent = 'Enviando tu mensaje...';
 
         try {
-            const response = await fetch('https://mailermilonguita.meapp.com.ar:3000/send-email', {
+            const response = await fetch('https://mailermilonguita.meapp.com.ar/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -8,7 +8,7 @@ function sendMail() {
         const responseMessage = document.getElementById('responseMessage');
     
         try {
-            const response = await fetch('https://milonguita.com.ar/send-email', {
+            const response = await fetch('http://mailer.meapp.com.ar/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

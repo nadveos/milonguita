@@ -18,7 +18,7 @@ function sendMail() {
     
             const result = await response.json();
             if (response.ok) {
-                responseMessage.textContent = '¡Tu mensaje ha sido enviado exitosamente!';
+                responseMessage.textContent = '¡Tu mensaje ha sido enviado exitosamente! Pronto nos estaremos contactando.';
                 document.getElementById('contactForm').reset();
             } else {
                 responseMessage.textContent = `Error: ${result.error}`;
